@@ -23,7 +23,10 @@ const PhoneView = () => {
             </div>
             <div className="phone">
                 <div className="logoPlace">
-                    <img className="logo" src={phone?.img}/>
+                    <img 
+                    className="logo" 
+                    src={phone?.img}
+                    alt='logo'/>
                 </div>
                 <div className="info">
                     <h4>{phone?.title}</h4>
