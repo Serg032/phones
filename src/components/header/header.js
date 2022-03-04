@@ -8,7 +8,10 @@ const Header = () => {
     return(
         <div className='header'>
             <div className='logoZ'>
-                <img className='logoZig' src='https://elitecurrensea.com/wp-content/uploads/2021/08/xNXwFzI-.jpg'/>
+                <img 
+                className='logoZig' 
+                src='https://elitecurrensea.com/wp-content/uploads/2021/08/xNXwFzI-.jpg'
+                alt='logo'/>
             </div>
             <h1>PHONE WORLD</h1>
             <div>
