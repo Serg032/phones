@@ -4,7 +4,7 @@ import './header.css'
 
 const Header = () => {
 
-    const navigate = useNavigate()
+    
     return(
         <div className='header'>
             <div className='logoZ'>
