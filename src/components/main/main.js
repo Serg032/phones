@@ -15,7 +15,7 @@ const Main = () => {
         };
 
         fetch(
-            "http://localhost:8000/phone", 
+            `${process.env.BACKEND_URL}/phone`, 
             requestOptions
         )
         .then((response) => (response.json()))
