@@ -5,7 +5,13 @@ const Footer = () => {
     return(
         <div className="footer">
             <h4>Sergio Radigales</h4>
-            <a className="link" target="_blank" href="https://www.linkedin.com/in/sergioradigales/">LinkedIn</a>
+            <a 
+            className="link" 
+            target="_blank" 
+            href="https://www.linkedin.com/in/sergioradigales/"
+            rel="noreferrer">
+                LinkedIn
+            </a>
         </div>
     )
 }
