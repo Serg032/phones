@@ -14,7 +14,7 @@ const Header = () => {
             <div>
                 <Link to="/phone">PHONE WORLD</Link>
             </div>
-            {/* <button onClick={() => navigate(-1)}></button> */}
+           
         </div>
     )
 }
