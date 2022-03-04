@@ -11,7 +11,7 @@ const PhoneView = () => {
 
     useEffect(() => {
         
-        fetch(`http://localhost:8000/phone/${params._id}` )
+        fetch(`${process.env.REACT_APP_BACKEND_URL}/phone/${params._id}` )
         .then((response) => response.json())
         .then((json) => setPhone(json))
     })

@@ -15,7 +15,7 @@ const Main = () => {
         };
 
         fetch(
-            `${process.env.BACKEND_URL}/phone`, 
+            `${process.env.REACT_APP_BACKEND_URL}/phone`, 
             requestOptions
         )
         .then((response) => (response.json()))
